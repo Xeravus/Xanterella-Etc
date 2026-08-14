@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 3,
+  "id": 0,
   "links": [],
   "liveNow": true,
   "panels": [
@@ -263,8 +263,8 @@
       "pluginVersion": "12.3.6+security-01",
       "targets": [
         {
-          "editorMode": "code",
-          "expr": "node_time_seconds - node_boot_time_seconds",
+          "editorMode": "builder",
+          "expr": "node_time_seconds{job=\"nixos-laptop\"} - node_boot_time_seconds{job=\"nixos-laptop\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -457,7 +457,7 @@
       "targets": [
         {
           "editorMode": "code",
-          "expr": "100 - ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100)",
+          "expr": "100 - ((node_memory_MemAvailable_bytes{job=\"nixos-laptop\"} * 100) / node_memory_MemTotal_bytes)",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -558,8 +558,8 @@
       "pluginVersion": "12.3.6+security-01",
       "targets": [
         {
-          "editorMode": "code",
-          "expr": "node_memory_MemAvailable_bytes",
+          "editorMode": "builder",
+          "expr": "node_memory_MemAvailable_bytes{job=\"nixos-laptop\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -569,8 +569,8 @@
             "type": "prometheus",
             "uid": "PBFA97CFB590B2093"
           },
-          "editorMode": "code",
-          "expr": "node_memory_MemTotal_bytes",
+          "editorMode": "builder",
+          "expr": "node_memory_MemTotal_bytes{job=\"nixos-laptop\"}",
           "hide": false,
           "instant": false,
           "legendFormat": "__auto",
@@ -802,7 +802,7 @@
     "nowDelay": "10s"
   },
   "timezone": "browser",
-  "title": "Monitoring Copy",
-  "uid": "cagc4gv",
-  "version": 1
+  "title": "Monitoring Copy Copy",
+  "uid": "cadbptx",
+  "version": 3
 }
