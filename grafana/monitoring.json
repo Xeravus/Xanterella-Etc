@@ -24,7 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
-  "id": 12,
+  "id": 14,
   "links": [
     {
       "icon": "external link",
@@ -15426,9 +15426,7 @@
   "preload": false,
   "refresh": "10s",
   "schemaVersion": 42,
-  "tags": [
-    "linux"
-  ],
+  "tags": [],
   "templating": {
     "list": [
       {
@@ -15447,8 +15445,8 @@
       },
       {
         "current": {
-          "text": "lutik",
-          "value": "lutik"
+          "text": "node",
+          "value": "node"
         },
         "datasource": {
           "type": "prometheus",
@@ -15520,9 +15518,13 @@
     "from": "now-15m",
     "to": "now"
   },
-  "timepicker": {},
+  "timepicker": {
+    "refresh_intervals": [
+      "10s"
+    ]
+  },
   "timezone": "browser",
-  "title": "Node Exporter Full",
-  "uid": "rYdddlPWk",
+  "title": "Node Exporter Full Copy",
+  "uid": "ca8xxwc",
   "version": 1
 }
