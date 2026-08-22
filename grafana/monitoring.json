@@ -24,7 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
-  "id": 14,
+  "id": 16,
   "links": [
     {
       "icon": "external link",
@@ -15468,8 +15468,8 @@
       },
       {
         "current": {
-          "text": "lutik",
-          "value": "lutik"
+          "text": "swetik",
+          "value": "swetik"
         },
         "datasource": {
           "type": "prometheus",
@@ -15491,8 +15491,8 @@
       },
       {
         "current": {
-          "text": "lutik.gute-nessie.ts.net:9999",
-          "value": "lutik.gute-nessie.ts.net:9999"
+          "text": "swetik.gute-nessie.ts.net:9999",
+          "value": "swetik.gute-nessie.ts.net:9999"
         },
         "datasource": {
           "type": "prometheus",
@@ -15524,7 +15524,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Node Exporter Full Copy",
-  "uid": "ca8xxwc",
+  "title": "Node Exporter Full Copy Copy",
+  "uid": "ca5446w",
   "version": 1
 }
